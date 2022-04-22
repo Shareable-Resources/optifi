@@ -1,0 +1,1 @@
+ALTER TABLE "optifi_markets" ADD COLUMN underlying_address VARCHAR NOT NULL DEFAULT 'underlying';

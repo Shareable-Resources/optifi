@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  /* font-family: 'Open Sans' !important; */
+  font-family: 'Almarai' !important;
+}
+
+.wallet-adapter-button {
+  height: 2.188rem !important;
+  font-size: 0.75rem;
+  border-radius: 4px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #293141;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b2b0bc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9c7bee;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+
+*[data-focus] {
+  box-shadow: none !important;
+}

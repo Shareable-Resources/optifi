@@ -1,0 +1,1 @@
+ALTER TABLE "optifi_markets" DROP COLUMN underlying_address CASCADE;

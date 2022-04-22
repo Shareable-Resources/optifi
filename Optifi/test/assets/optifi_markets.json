@@ -1,0 +1,22 @@
+[
+    {
+        "optifiMarket": "wFXQR5oFJtru3z3rJSxwwPZSPB6XHfzdjE6KGcDt6SC",
+        "optifiMarketId": 1,
+        "serumMarket": "8vCsPLaD8CB3rb3M4AcSCevkfn1L328dD4WBDQrANdMF",
+        "instrument": "AqZ8zt3kqnEfBWMwhBPnbKNq8vezzrTBdkx7hCTJtaaL",
+        "isStopped": false,
+        "longSplTokenMint": "5r1y1YuksPCy3EZ8EsVBF8MU41fKKSPEL9DW8icQTDV3",
+        "shortSplTokenMint": "AnZaj68uKFwt4GCusirUiN1VcAezpxvaQDLteRNhLt3u",
+        "txid": "4NnVRJ9bnQAemyzfA9iYVN5cQMaw8cvtCvxcHoZCzUM9cvH21Fe5Z1urGyZjBCLYiZv7PjhEgEe2mmqpq6fajK9J"
+    },
+    {
+        "optifiMarket": "BAGu78g814YD6XS3YhDLCozciz83CSamnLdWmk8uXSXR",
+        "optifiMarketId": 2,
+        "serumMarket": "EceSYjC2cWZkW5xySMM9ABuTc1VgSDCNuDJaHWcqpjrt",
+        "instrument": "95RE8yx177oQcvwGjt4rPvzpu1twRhz5SR6zUVUhy1uH",
+        "isStopped": false,
+        "longSplTokenMint": "B8si6d2gp4HbbbSo2XZnNTJnZwWL3XFNZ4qtEvwvfw6T",
+        "shortSplTokenMint": "F8AcHgXmCYMGTnk2pQFgXsKqrU25dJrrAmgq6oZWbc1j",
+        "txid": "skBLZuiFhhHBz48Gvvj5SCKaQg6hA46wQD2TgzLBZ3CQKaECLUbC3cCbzZAMMu3gfsJANn1o4QUbvhLrHzRSNaE"
+    }
+]

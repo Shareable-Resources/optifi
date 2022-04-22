@@ -1,0 +1,67 @@
+.drop-down {
+  font-family: 'Almarai';
+  border: 2px solid #0000;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.drop-down-item {
+  font-family: 'Almarai';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 14px;
+}
+
+.slider {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  padding-top: 6px;
+}
+
+.order-table {
+  font-size: 13px;
+  th {
+    font-family: 'Almarai';
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: none;
+    padding-bottom: 0;
+  }
+  td {
+    padding: 8px 16px 0px 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+}
+
+.input {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  padding-bottom: 8px;
+}
+
+.left-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  position: relative;
+}
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+.number-input {
+  pointer-events: none;
+}

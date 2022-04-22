@@ -1,0 +1,1 @@
+ALTER TABLE "chains" DROP COLUMN "address" CASCADE;

@@ -1,0 +1,6 @@
+[submodule "Optifi"]
+	path = Optifi
+	url = git@github.com:OptiFi-Team/Optifi
+[submodule "optifi-sdk"]
+	path = optifi-sdk
+	url = git@github.com:OptiFi-Team/optifi-sdk

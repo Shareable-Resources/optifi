@@ -1,0 +1,9 @@
+
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+.env
+test/config.json
+yarn-error.log

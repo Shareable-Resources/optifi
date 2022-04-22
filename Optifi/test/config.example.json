@@ -1,0 +1,90 @@
+{
+  "TOKEN_PROGRAM_ID": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+  "Serum_Dex_ProgramId": "DESVgJVGajEgKGXhb6XmqDHGz3VjdgP7rEVESBgxmroY",
+  "SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+  "WALLET_PATH": "~/.config/solana/id.json",
+  "OptiFi_ProgramId": "9m84Fxhk3QT1cN9AWGLYNbrW82Uj2ss8s2v6Y463X3bb",
+  "OptiFi_Exchange_Id": "4ZMV4m3vEJj5TU7ym8wzVy9ZvsjqMH57vq8mJfvC8d9u",
+  "OptiFi_Exchange_Data": {
+    "uuid": "12KXG1",
+    "version": 1,
+    "exchangeAuthority": "PublicKey { _bn: <BN: ab283eb04a100a6de52deb6cd87e58683d1695824889d32c14455e0180d15ffa>}",
+    "owner": "PublicKey { _bn: <BN: ab283eb04a100a6de52deb6cd87e58683d1695824889d32c14455e0180d15ffa>}",
+    "markets": [],
+    "instruments": []
+  },
+  "USDC_TOKEN_MINT": "44rHboDQWjcf4ds4kkuQq5x2EvUyCFF3hQkE3hgL9SD2",
+  "USDC_CENTRAL_POOL": "DCcMg8RF7WYwovbGUi2cuG4ptohcGUwaHcN525HrUtkA",
+  "Created_Instrumnet_Pubkey": "785BG9PintLbQdHtkA1Z7xzmq5VZWQYgyK1foysLLfgv",
+  "Created_Serum_Orderbook": {
+    "market": "FREfprk4nsFiq2caa7iSkSkSi5vSQcz1TLTvsRLxpLU9",
+    "coinMintPk": "48YzFKG6rPjEfPC3MRoipDNyFWcK17VFGTaRYBtpoUW6",
+    "pcMintPk": "44rHboDQWjcf4ds4kkuQq5x2EvUyCFF3hQkE3hgL9SD2",
+    "coinVaultPk": "HDi1uqnW3F5oNFYVuJHho4NE6k6pHcns9Wjk3WgXs9h3",
+    "pcVaultPk": "ErdV1Wfy3RAHciaD46tmHHtWhSaip7eZQzKnonriw56R",
+    "bids": "5ewaNEY1umF3EnX5XPzQ6biwmMhCqV2RDa292FKFBYdp",
+    "asks": "FjhgDSnPquEKaVwd3695mKqSNJ4crRfJeF5yAnfWZ4DP",
+    "reqQ": "BEVxtvTU3CQjpSJYac65U3TMMcNFLJGqdbYZ9ZvVRxx4",
+    "eventQ": "D2RcsT9m7J4w3czLCaJPcaBdixYxEdoz1amJ82dqJAaf",
+    "vaultOwner": "86TKjZvtiqD89SkKEK2urjHwRWXr4m8rbcbatEZ8tjF2",
+    "vaultOwnerBump": 1,
+    "coinMintAuthority": "Aqz5SLrLr6FCM31oQPqkGzJR8xPTJ3PuQvb8kkCtuTDS",
+    "serumMarketAuthority": "8Mqv5qwMjsPUyVWcYtZuhNVBSVYGoeRvoru5g8pJMEP4",
+    "serumMarketAuthorityBump": 255
+  },
+  "Created_OptiFi_Market": {
+    "optifiMarket": "3zJoZsL3dYsdGm1QNBw1Rnis2mmvRpqHLXXsoq26qBgE",
+    "optifiMarketId": 1,
+    "serumMarket": "PublicKey { _bn: <BN: f828758a6105b96a8a0d9f004064f8c2523971ac2b7c0f819b1cc593a3dd982e>}",
+    "instrument": " PublicKey { _bn: <BN: 8eba31f019255900492a062e5780e4592f1dcc1ab7ed086bb476e7f2225b70ee>}",
+    "isStopped": false,
+    "shortSplTokenMint": "B9rpMXwGuYK2MKVu8e6nC8jvRH115NEumrcjujY9Y1iS"
+  },
+  "Created_Amm": {
+    "AMM": "4WBikfvKaVLrNZCBxYph5UQKS258cpR8NfPws2pTPMrH",
+    "Usdc_Vault": "2H7ELpfmwtZ7nmmyUURNdL5egD57VYt1PkBY1cAZPCJv",
+    "LP_Token_Mint": "Ho8rVYsXWo7nSjotwtW6CS13wKNmBUd15WrCXPxUqVyG"
+  },
+  "user_profiles": {
+    "template": {
+      "Wallet_PubKey": "",
+      "WALLET_PATH": "",
+      "User_USDC_Token_Account": "",
+      "User_Account": "",
+      "User_Margin_Account_USDC": "",
+      "User_Open_Orders_Account": "",
+      "User_Instrument_Long_SPL_Token_Account": "",
+      "User_Instrument_Short_SPL_Token_Account": ""
+    },
+    "user1": {
+      "Wallet_PubKey": "CX8JvnKzZVNqGtxzcmN3H7JdVFT6hgHtiRjidJdSMTNZ",
+      "WALLET_PATH": "/Users/princegao/.config/solana/id-CX8JvnK.json",
+      "User_USDC_Token_Account": "6H94Uan8BpQSPoDR7wBhWVB3Eqfkm7rXHa6dDGKbHzGJ",
+      "User_Account": "93FFG4Jf5E9oEriS4Qz642gG3gzv5J9f5XRaCyttbKCe",
+      "User_Margin_Account_USDC": "2XBZ5iRCAiryJpmwvijZLWc9qtULHEfwLkKe4doYcQST",
+      "User_Open_Orders_Account": "AQxNWqYrrdr3uGXx5jZtwEUKW2bfSLjxiUvNbv3yFkU7",
+      "User_Instrument_Long_SPL_Token_Account": "3QVkxRE1RXz1DQUo5xVn5kXQQ7zKSmdPYfqRph4KbEUt",
+      "User_Instrument_Short_SPL_Token_Account": "7Ufyk6YqghZRRx7FsZY92orBC2N2rSWJBRf1qL7zPHUS"
+    },
+    "user2": {
+      "Wallet_PubKey": "Bz2idbRU36LLXr729ihamhp7jAFSo3w17dB1DSahNynv",
+      "WALLET_PATH": "/Users/princegao/config/solana/id.json",
+      "User_USDC_Token_Account": "3cuwCPKKGubVTVCcL1MPZtougAfhP9gMqJw8u88iWjNW",
+      "User_Account": "Fz6AVBJUSMsnkqrNi6yESuqnL75661bXQRMY7JzqV8NE",
+      "User_Margin_Account_USDC": "By5vhq2X6e7KokvmMLi8ffu5Wxg7YhnRZz97yFbLegCa",
+      "User_Open_Orders_Account": "66zWdsvCMJrhxUpKuXKboXT3N4vQwfNtHKVDf7ESZr5s",
+      "User_Instrument_Long_SPL_Token_Account": "4h21HWncWx2AWJyXJyFNAytq2dNWRv2hxa8rXkSwxLHz",
+      "User_Instrument_Short_SPL_Token_Account": "CT41ADcbFrdYC3yWWDibJNgSAncb1udHSfuxp1JhVQv8"
+    },
+    "user3": {
+      "Wallet_PubKey": "BSmJrrBUnVzKkw3SxKE6fXDGQFPtWFj3jj52AxqDWsUu",
+      "WALLET_PATH": "/Users/princegao/.config/solana/id-BSmJrr.json",
+      "User_USDC_Token_Account": "7gDF8iWgamxAoywT6V4TSyNRH3YDqQc46SiWBT3qx6RF",
+      "User_Account": "4bjzJwiCwEUzx6aj8pWcEgqTB9a2SztWLUXyTWvrheT3",
+      "User_Margin_Account_USDC": "Du2LG2Nn8fHCKpFaExnuWB1AnCGdCUJb6tvm7ZH8FMwo",
+      "User_Open_Orders_Account": "8FLmgcj4QubsDBTxtobN2RZkWMJGygEFeJT2Dais46Wj",
+      "User_Instrument_Long_SPL_Token_Account": "DyK6SmJZEtJrzbSH4hUWEGBQzQAdWEnR7xkpRwrN78Yk",
+      "User_Instrument_Short_SPL_Token_Account": "Bo9LffNBcs9o4ruyGR2pfBFWLfG8RAHsSjX3VLtFxKTB"
+    }
+  }
+}

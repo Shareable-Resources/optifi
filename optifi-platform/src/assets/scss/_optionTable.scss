@@ -1,0 +1,47 @@
+.option-table {
+  th {
+    border-bottom: 1px solid #4e5a71;
+  }
+  td {
+    border-bottom: 1px solid #4e5a71;
+  }
+  .option-table-body {
+    max-height: 215px !important;
+  }
+}
+.option-table-body tr:nth-child(12n + 1) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 2) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 3) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 4) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 5) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 6) .call-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 7) .put-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 8) .put-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 9) .put-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 10) .put-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 11) .put-options {
+  background-color: #262d3a;
+}
+.option-table-body tr:nth-child(12n + 12) .put-options {
+  background-color: #262d3a;
+}

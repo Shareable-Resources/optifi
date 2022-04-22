@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "crank"
+		},
+		{
+			"path": "ftx-hedge"
+		},
+		{
+			"path": "InfiniteAirdrop"
+		},
+		{
+			"path": "Optifi"
+		},
+		{
+			"path": "optifi-analytics-api"
+		},
+		{
+			"path": "optifi-block-types"
+		},
+		{
+			"path": "optifi-deployment"
+		},
+		{
+			"path": "optifi-etl"
+		},
+		{
+			"path": "optifi-landing-page"
+		},
+		{
+			"path": "optifi-platform"
+		},
+		{
+			"path": "optifi-protocol"
+		},
+		{
+			"path": "optifi-sdk"
+		},
+		{
+			"path": "OptifiDataOrchestration"
+		},
+		{
+			"path": "python_examples"
+		}
+	]
+}

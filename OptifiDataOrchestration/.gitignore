@@ -1,0 +1,7 @@
+target
+programs/orchestrator/Cargo.lock
+logs
+*.log
+log
+log/*.log
+.env

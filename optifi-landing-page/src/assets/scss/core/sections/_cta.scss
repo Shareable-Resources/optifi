@@ -1,0 +1,57 @@
+.cta {
+  padding: 3% 0 3% 0;
+  .container {
+    margin: auto;
+  }
+
+  .cta-inner {
+    background-color: transparent;
+  }
+
+  .cta-action {
+    text-align: center;
+  }
+
+  .m-0 {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.625em;
+    line-height: 57px;
+    text-align: justify;
+    color: #00dbc6;
+  }
+
+  .section-inner {
+    padding-top: $cta--padding-t__mobile;
+    padding-bottom: $cta--padding-b__mobile;
+  }
+}
+
+.cta-slogan {
+  margin-bottom: $cta-slogan--padding-v__mobile;
+}
+
+@include media('>medium') {
+  .cta {
+    .section-inner {
+      padding-top: $cta--padding-t__desktop;
+      padding-bottom: $cta--padding-b__desktop;
+    }
+  }
+
+  .cta-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cta-slogan {
+    margin-bottom: $cta-slogan--padding-v__desktop;
+
+    .cta-split & {
+      margin-bottom: 0;
+      margin-right: $cta-slogan--padding-h__desktop;
+    }
+  }
+}

@@ -1,0 +1,208 @@
+.hero {
+  background-image: url(../../../images/background-1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .main-screen-title {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.375em;
+    line-height: 54px;
+    color: #00dbc6;
+  }
+  .main-screen-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 32px;
+    color: #ffffff;
+    opacity: 0.8;
+    margin: 7% 0 9% 0;
+  }
+
+  #poweredBy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.0625em;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  #hero-solana {
+    margin: 0.5% 0 0 2.5%;
+  }
+
+  #main-screen-line {
+    position: relative;
+    margin-left: 30%;
+    margin-top: -60%;
+  }
+
+  #main-screen-dashboard {
+    position: relative;
+    margin-left: 30%;
+    margin-top: -100%;
+  }
+
+  .container-sm {
+    margin-left: 10%;
+    margin-right: 0;
+  }
+
+  .container-xs {
+    margin-left: 0;
+  }
+  .section-inner {
+    padding-top: $hero--padding-t__mobile;
+    padding-bottom: $hero--padding-b__mobile;
+  }
+}
+
+.hero-inner {
+  // Affects only hero full
+  > .hero-content + .hero-figure,
+  > .hero-figure + .hero-content {
+    margin-top: $hero--inner-padding-v_mobile;
+  }
+
+  > .hero-figure {
+    > a {
+      display: inline-flex;
+      // prevents stretching
+      align-items: center;
+      vertical-align: top;
+    }
+  }
+}
+
+@include media('<=medium') {
+  .hero {
+    .split-wrap {
+      .split-item {
+        .split-item-content {
+          margin-bottom: $hero--inner-padding-v_mobile;
+        }
+      }
+
+      &.invert-mobile {
+        .split-item {
+          .split-item-image {
+            margin-bottom: $hero--inner-padding-v_mobile;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main-screen-line {
+    display: none;
+  }
+
+  #main-screen-dashboard {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero {
+    background-image: url(../../../images/background-1.png);
+    background-size: 150% !important;
+    background-repeat: no-repeat;
+    height: 200% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  #main-screen-dashboard {
+    margin-left: 30% !important;
+    margin-top: -70% !important;
+    width: 75% !important;
+    height: 75% !important;
+  }
+
+  #main-screen-line {
+    position: relative;
+    margin-left: 30% !important;
+    margin-top: -40%;
+    height: 75% !important;
+    width: 75% !important;
+  }
+}
+
+@include media('>medium') {
+  .hero {
+    .section-inner {
+      padding-top: $hero--padding-t__desktop;
+      padding-bottom: $hero--padding-b__desktop;
+    }
+  }
+
+  .hero-inner {
+    // Affects only hero full
+    > .hero-content + .hero-figure,
+    > .hero-figure + .hero-content {
+      margin-top: $hero--inner-padding-v_desktop;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-screen-title {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.375em;
+    line-height: 54px;
+    color: #00dbc6;
+    margin-top: 2% !important;
+  }
+  .main-screen-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 32px;
+    color: #ffffff;
+    opacity: 0.8;
+    margin: 7% 0 10% 0 !important;
+  }
+
+  #main-screen-dashboard {
+    position: relative;
+    margin-left: 30% !important;
+    margin-top: -87% !important;
+  }
+
+  #main-screen-line {
+    position: relative;
+    margin-top: -60% !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #main-screen-line {
+    position: relative;
+    margin-left: 110% !important;
+    margin-top: -40%;
+  }
+
+  .split-item-content {
+    margin-left: 0 !important;
+  }
+
+  #main-screen-dashboard {
+    margin-left: 100% !important;
+  }
+
+  .hero-content {
+    margin-left: 30% !important;
+  }
+}

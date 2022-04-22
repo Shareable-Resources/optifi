@@ -1,0 +1,12 @@
+// faq (core/sections/_faq.scss) ---------------
+$faq--padding-t__mobile: null; // faq, top padding (mobile)
+$faq--padding-b__mobile: null; // faq, bottom padding (mobile)
+$faq--padding-t__desktop: null; // faq, top padding (desktop)
+$faq--padding-b__desktop: null; // faq, bottom padding (desktop)
+$faq-header--padding__mobile: null; // faq header, bottom padding (mobile)
+$faq-header--padding__desktop: null; // faq header, bottom padding (desktop)
+$faq-items--padding__mobile: null; // padding between faq items (mobile)
+$faq-items--padding__desktop: null; // padding between faq items (desktop)
+$faq-item--width: 344px; // faq item, width
+$faq-item--inner-padding-v: 24px; // faq item, inner top and bottom padding (it inherits $tiles-item--inner-padding-v unless you replace null with a new value)
+$faq-item--inner-padding-h: 32px; // faq item, inner left and right padding (it inherits $tiles-item--inner-padding-h unless you replace null with a new value)

@@ -1,0 +1,11 @@
+[Unit]
+Description=Optifi Data Orchestration
+
+[Service]
+WorkingDirectory=/home/ec2-user/OptifiDataOrchestration
+Restart=on-failure
+RestartSec=5s
+ExecStart=/home/ec2-user/OptifiDataOrchestration/target/release/runner
+
+[Install]
+WantedBy=multi-user.target

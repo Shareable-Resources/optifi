@@ -1,0 +1,1 @@
+ALTER table "chains" ADD COLUMN address varchar NOT NULL default "address";

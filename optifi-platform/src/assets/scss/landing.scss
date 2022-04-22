@@ -1,0 +1,12 @@
+@mixin spacing-main() {
+  padding: 40px 64px 100px 64px;
+}
+
+.background {
+  .background__main {
+    @include spacing-main();
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

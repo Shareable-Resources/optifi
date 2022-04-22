@@ -1,0 +1,1 @@
+ALTER TABLE "optifi_markets" DROP COLUMN optifi_market_id CASCADE;

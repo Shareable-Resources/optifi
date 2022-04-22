@@ -1,0 +1,17 @@
+{
+    "name": "optifi-analytics-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+     
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "aws-lambda-router": "^0.11.0",
+      "lambda-router": "^2.12.0",
+      "pg": "^8.7.3"
+    }
+  }
+  
